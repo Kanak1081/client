@@ -30,8 +30,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Extensions for VS Code
-#### Path Intellisense
-#### ES7 React/Redux
+1. Path Intellisense
+2. ES7 React/Redux
 
 
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import Logo from '../images/logo.png';
+//import {FaBars} from 'react-icons/fa';
+import {AiOutlineClose} from 'react-icons/ai';
 const header = () => {
   return (
     <nav>
@@ -14,7 +16,9 @@ const header = () => {
           <li><Link to="/authors">Authors</Link></li>
           <li><Link to="/logout">Logout</Link></li>
         </ul>
-        <button className='nav_toggle-btn'></button>
+        <button className='nav_toggle-btn'>
+          <AiOutlineClose/>
+        </button>
       </div>
     </nav>
   )
